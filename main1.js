@@ -1,0 +1,4 @@
+var about = ["My hobby is to read interesting and knowledgeable books in my free time. Whenever I go to home from school I like to read such books after completing my home work. I am 23 year old and work at Whitehat Junior. Now I know very well that reading is very good habit which can complete me. This hobby can be developed by anyone, however I got this naturally. Reading books keep one always happy and busy. It is good source of enjoyment, knowledge, inspiration and instruction. It makes us disciplined, loyal, punctual and most importantly a successful person in the life."];
+function callAbout() {
+    document.getElementById("para").innerHTML = about[0];
+}
