@@ -87,3 +87,15 @@ button{
     text-decoration: none;
     outline: 1px solid;
 }
+#img2{
+    border-radius: 1px;
+    width: 200px;
+    height: 35%;
+    margin-left: 20px;
+}
+#img3{
+    border-radius: 1px;
+    width: 200px;
+    height: 35%;
+    margin-left: 20px;
+}
