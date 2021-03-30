@@ -1,99 +1,120 @@
-body{
-  text-align:center;
-  background:linear-gradient(beige 40%, white 60%);
-  background-repeat:no-repeat;
-}
-h1{
-  text-shadow:2px 2px #F8BBD0;
+body {
     text-align: center;
-}
-#intro{
-  margin-top:80px;
-}
-#bio{
-  padding:20px;
-  font-size:18px;
-  text-align:center;
-  z-index:9;
-}
-#para{
-  text-align:justify;
-}
-.line{
-  border:solid;
-  border-width:1px;
-  width:inherit;
-  margin: 8px auto;
-   
+    background: linear-gradient(beige 5%, white 95%);
+    background-repeat: no-repeat;
 }
 
-#img1{
-   border-radius:500px;
-  width:230px;
-  height:230px;
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    text-align: center;
 }
-.menu{
-  list-style:none;
-  position:absolute;
-  font-family:cursive;
-  float:right;
-  top:10px;
-  right:30px;
-  cursor:pointer;
-  color:black;
-  
+
+#intro {
+    margin-top: 200px;
 }
-html{
-   scroll-behavior: smooth;
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    z-index: 9;
+    margin-top: 80px;
 }
-button{
-    display:inline;
+
+#para {
+    text-align: justify;
+}
+
+.line {
+    border: solid;
+    border-width: 1px;
+    width: inherit;
+    margin: 8px auto;
+
+}
+
+
+#img1 {
+    border-radius: 500px;
+    width: 230px;
+    height: 230px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    display: inline;
     transition-duration: 0.4s;
-    background-color: beige; color: black;
+    background-color: beige;
+    color: black;
     border: none;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
     border-radius: 5px;
-  }
-.button:hover{
-  text-shadow:1px 0px #212121;
-  background-color:linear-gradient(#E1BEE7 30%, #004D40 80%);
-  border-color: black;
-  border: 2px solid black;
-      
 }
-#contact{
-    text-align:justify;
+
+.button:hover {
+    text-shadow: 1px 0px #212121;
+    background-color: linear-gradient(#E1BEE7 30%, #004D40 80%);
+    border-color: black;
+    border: 2px solid black;
+
+}
+
+#contact {
+    text-align: center;
     font-size: 20px;
-    margin: 10px;
-    letter-spacing: 4px;
-    
+    letter-spacing: 2px;
+
 }
-#message{
+
+#message {
     width: 200px;
     height: 70px;
 }
-.backtotop
-{
+
+.backtotop {
     background-color: beige;
-     text-align:end;
-    
+    text-align: end;
+
 }
-#send{
+
+#send {
     border: solid;
     border: 2px black;
     text-decoration: none;
     outline: 1px solid;
 }
-#img2{
+.con{
+   margin: 30px;
+    line-height: 30px;
+     align-content: justify;
+}
+
+#img2 {
     border-radius: 1px;
     width: 200px;
     height: 35%;
     margin-left: 20px;
 }
-#img3{
+
+#img3 {
     border-radius: 1px;
     width: 200px;
     height: 35%;
